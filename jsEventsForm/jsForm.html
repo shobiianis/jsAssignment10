@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <label for="Username" class="label">Username</label>
+    <input style="margin-left: 18px;" onblur="check(this)" type="text" name="" id="username" class="box" ><br>
+
+    <label for="firstname" class="label">First Name</label>
+    <input onblur="check(this)" type="text" name="" id="firstname" class="box"><br>
+
+    <label for="lastname" class="label">Last  Name</label>
+    <input onblur="check(this)" type="text" name="" id="lastname" class="box"><br>  
+
+    <label for="number" class="label">Contact no</label>
+    <input onblur="validate(this)" type="text" name="" id="number" class="box"><br>
+
+    <label for="zipCode" class="label">Zip-code &nbsp;&nbsp;</label>
+    <input onblur="validate2(this)" type="text" name="" id="zipCode" class="box"><br>
+
+
+
+    <label for="Email" class="label">Email</label>
+    <input style="margin-left: 40px;" onblur="validateEmail(this)" type="text" name="" id="email" class="box">
+<br>
+<button onclick="show()" style="margin-left:10% ;margin-top: 3%;" >Submit</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
